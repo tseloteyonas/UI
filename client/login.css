@@ -1,0 +1,96 @@
+.background{
+    background:rgba(138, 211, 171, 0.918);
+    background-repeat: no-repeat  ;
+    background-size: 100%;
+    margin:0px;
+    cursor:pointer;
+}
+.login{
+    margin:0px;
+    font-size: 30px;
+    display: flex;
+    color:black;
+    padding:5px;
+}
+.motto{
+    margin:0px;
+    font-size: 20px;
+    display: flex;
+    color:black;
+    padding:5px;
+}
+.email_input{
+    width:300px;
+    height:40px;
+    margin:10px;
+    display:flex;
+    border:2px solid gray;
+    border-radius: 6px;
+    outline:none;
+    padding:10px;
+    box-sizing: border-box;
+}
+.email_input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.password{
+    width:300px;
+    height:40px;
+    margin:10px;
+    margin-bottom: 0px;
+    display:flex;
+    border:2px solid gray;
+    border-radius: 6px;
+    outline:none;
+    padding:10px;
+    box-sizing: border-box;
+}
+.password:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inside_the_background{
+    height:340px;
+    width:370px;
+    margin:100px 500px  0px 550px;
+    background-color:white;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    font-size: large;
+    text-align: center ;
+    padding: 25px;
+    opacity: 0.5 ;
+}
+.forgot_password{
+    display:flex;
+    margin-left: 180px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+button{
+    font-size: 30px;
+    padding:6px 50px;
+    margin-top: 4px;
+    margin-right: 40px;
+    outline:none;
+    color:white;
+    background: black;
+    border-radius: 20px;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+.new{
+    font-size: 20px;
+}
+i{
+    margin-right: -200px; 
+    cursor: pointer;
+    margin-top: -65px;
+}
+button:hover{
+    color:black;
+    background: white;
+
+}

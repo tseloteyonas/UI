@@ -1,0 +1,14 @@
+.background{
+    /* background:rgba(138, 211, 171, 0.918); */
+    /* background-image: url("emily in paris - Copy.jpg");
+    background-repeat: no-repeat  ;
+    background-size: 50%; */
+    margin:0px;
+    cursor:pointer;
+    height: 200px;
+    width:100px;
+    display:block;
+}
+.welcome{
+    font-size: 60px;
+}

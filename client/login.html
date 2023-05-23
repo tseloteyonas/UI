@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+            <link href="login.css" rel="stylesheet" type="text/css">
+        </head>
+        <body class="background">
+            <!-- <div class="logo">
+                FlickerSpot
+            </div> -->
+                <div class="inside_the_background">
+                     <h3 class="login">Sign in</h3>
+                     <h4 class="motto">Never miss a show again with FlickSpot!</h4>
+                     <form method="post">
+                     <input class="email_input" type="text" placeholder="Email or Phone Number" required="">
+                     
+                    <input  class="password" type="text" placeholder="Password" id="pass" required="">
+                    <i class="far fa-eye" onclick="see()"></i>
+                     
+                    <h4 class="forgot_password">Forgot password?</h4>
+                     <button>Sign in</button>
+                     </form>
+                     <h4 class="new">New to FlickSpot? Sign up</h4>
+                    </div>
+        <script>
+            function see(){
+                var x=document.getElementById("pass");
+                if(x.type === "password"){
+                    x.type="text";
+                }
+                else{
+                    x.type="password"
+                }
+            }
+        </script>
+    </body>
+    </html>
